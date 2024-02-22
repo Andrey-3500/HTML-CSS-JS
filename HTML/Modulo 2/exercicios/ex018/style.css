@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* CORES #5CA5FF #4D6BE3 #C170FF #6058FA #7D4DE3 */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;300;500&display=swap');
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    text-align: justify;
+    background-image: linear-gradient(to left, #7D4DE3, #6058FA );
+}
+
+main {
+    background-color: white; width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px #4b86ce ;
+}
+
+h1 {
+    font: 500 2.5em 'IBM Plex Serif','sans-serif';
+    color: #C170FF;
+    text-align: center;
+    text-shadow: 1px 1px 2px #6e3e92f3;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    color: #3b53b3 ;
+}

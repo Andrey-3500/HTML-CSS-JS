@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(128, 128, 128, 0.651);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header {
+
+ text-align: center;
+ background-color: rgb(0, 0, 0);
+ padding: 20px;
+ color: white;
+
+
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+}
+
+nav > a  {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+nav > a:hover {
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+
+main {
+    
+
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 5px 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.315);
+
+}
+
+main > h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+main > h2.topo {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+main h3 {
+ 
+ background-color: black;
+ color: white;
+ width: 450px;
+ text-align: center;
+
+}
+
+
+
+main > p {
+
+ margin: 20px;
+ padding: 10px;
+
+}
+
+
+
+main li {
+
+    margin: 20px;
+    padding: 10px;
+   
+}
+   
+
+
+footer {
+
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px;
+   
+}
+
